@@ -37,28 +37,34 @@ public class Test {
 
     @org.junit.jupiter.api.Test
     public void testPerimeter() throws PerimeterAndSquareException {
-        double length = 5, width = 4, expected = 18;
+        double length = 5;
+        double width = 4;
+        double expected = 18;
         double result = sut.perimeterCalc(length, width);
         assertEquals(expected, result);
     }
 
     @org.junit.jupiter.api.Test
     public void testSquare() throws PerimeterAndSquareException {
-        double length = 12, width = 10, expected = 120;
+        double length = 12;
+        double width = 10;
+        double expected = 120;
         double result = sut.squareCalc(length, width);
         assertEquals(expected, result);
     }
 
     @org.junit.jupiter.api.Test
     public void testIncorrectInputPerimeter() {
-        double length = 4, width = 0;
+        double length = 4;
+        double width = 0;
         var expected = PerimeterAndSquareException.class;
         assertThrows(expected, () -> sut.perimeterCalc(length, width));
     }
 
     @org.junit.jupiter.api.Test
     public void testIncorrectInputSquare() {
-        double length = 0, width = 4;
+        double length = 0;
+        double width = 4;
         var expected = PerimeterAndSquareException.class;
         assertThrows(expected, () -> sut.squareCalc(length, width));
     }

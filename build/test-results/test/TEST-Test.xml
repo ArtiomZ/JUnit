@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-17T16:41:39" hostname="LAPTOP-E9595AOA" time="0.067">
+<testsuite name="Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-20T09:36:59" hostname="LAPTOP-E9595AOA" time="0.078">
   <properties/>
   <testcase name="testIncorrectInputSquare()" classname="Test" time="0.016"/>
   <testcase name="testIncorrectInputPerimeter()" classname="Test" time="0.002"/>
-  <testcase name="[1] 10.3, 5.7, 58.71" classname="Test" time="0.019"/>
+  <testcase name="[1] 10.3, 5.7, 58.71" classname="Test" time="0.026"/>
   <testcase name="[2] 3.25, 4.12, 13.39" classname="Test" time="0.001"/>
   <testcase name="testPerimeter()" classname="Test" time="0.001"/>
   <testcase name="testSquare()" classname="Test" time="0.001"/>
